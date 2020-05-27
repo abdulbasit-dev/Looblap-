@@ -1,0 +1,62 @@
+body{
+    background: #333;
+    color: white;
+}
+
+.navbar{
+    border-bottom: 3px solid #008ed6;
+    opacity: .8;
+}
+
+
+/*################
+    Home Section  
+ #################*/
+#home-section {
+    background: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-attachment: fixed;
+    opacity: .8;
+}
+
+#home-section .dark-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80vh;
+    background: rgba(0, 0, 0, .7);
+}
+
+#home-section .home-inner{
+    padding-top: 150px;
+}
+
+#home-section .card-form{
+    opacity: .8;
+}
+
+#home-section .fas , 
+#create-section .fas{
+    color: #008ed6;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/*###########################
+      Explore & Share Section  
+ ############################*/
+ #explore-section .fas ,
+  #share-section .fas{
+     background: #333;
+     color: white;
+     padding: 5px;
+     border-radius: 5px;
+
+ }
+
+
